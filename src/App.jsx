@@ -4,9 +4,11 @@ function App(){
 
   const [nome, setNome] = useState ('SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU')
 
-  return(
-    <div>
-      <h3>Pizzaria 2D</h3>
+  const Formulario =() => {
+
+    return (
+      <>
+      <h3>formulário</h3>
 
       <input 
         className="nome"
@@ -20,7 +22,17 @@ function App(){
         Click Aqui
 
       </button>
+      </>
+    )
+  }
+  return(
+    <div>
+      <h3>Pizzaria 2D</h3>
 
+      <Formulario/>
+      <Formulario/>
+      <Formulario/>
+      
     </div>
   )
 }
