@@ -27,9 +27,12 @@ function App(){
   }
   return(
     <div>
-     <center> <h3>Pizzaria 2D</h3></center>
+     <center>
+     <h3>Pizzaria 2D</h3>
 
+      <Formulario/>
 
+     </center>
       
     </div>
   )
