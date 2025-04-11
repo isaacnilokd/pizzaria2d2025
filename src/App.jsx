@@ -27,11 +27,9 @@ function App(){
   }
   return(
     <div>
-      <h3>Pizzaria 2D</h3>
+     <center> <h3>Pizzaria 2D</h3></center>
 
-      <Formulario/>
-      <Formulario/>
-      <Formulario/>
+
       
     </div>
   )
